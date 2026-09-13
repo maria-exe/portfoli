@@ -56,7 +56,7 @@ h2 {
 
 .item {
     width: 100%;
-    max-width: 12s00px;
+    max-width: 2000px;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
