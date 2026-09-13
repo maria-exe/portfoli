@@ -3,7 +3,10 @@
 <head>
     <title>Portfolio</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
 <body>
 
     <div class="header">
@@ -16,7 +19,7 @@
              style="width: 200px; height: 200px; border: 10px white solid; border-radius: 100%;">
         <img src="imagens/nome3.png" alt="Maria Luiza C. da Silva" class="nome-titulo">
 
-        <p style="color: white; margin-bottom: 2rem; font-size: 14px; margin-top: 1.5rem; max-width: 50%;">
+        <p class="texto-intro">
             Olá! Sou estudante de Sistemas de Informação da Universidade Tecnológica Federal do Paraná (UTFPR).
         </p>
 
@@ -30,7 +33,7 @@
         <div class="item" style="margin-top: 2rem;">
             <div class="conteudo-texto">
                 <img src="imagens/calmo-titulo.png" style="max-width: 120px;">
-                <p style="color: white; padding-right: 6rem;">
+                <p class="texto-corpo" style="padding-right: 6rem;">
                     Protótipo de aplicativo mobile que têm como propósito auxiliar no cuidado emocional e no
                     acompanhamento do bem-estar dos estudantes, foi desenvolvido na disciplina de Projeto de Interfaces
                     e Experiências Digitais da universidade.
@@ -39,7 +42,7 @@
                    target="_blank">
                     <img src="imagens/prototipo.png" class="imagem-prototipo">
                 </a>
-                <p style="color: white; font-size: 12px; margin-top: 0px;">
+                <p class="texto-credito">
                     Clique na imagem acima para acessar o protótipo
                 </p>
             </div>
@@ -50,7 +53,7 @@
             <img src="imagens/vamoai.png" class="imagem-principal" style="padding-right: 4rem;">
             <div class="conteudo-texto" style="padding-left: 12rem;">
                 <img src="imagens/vamoai-titulo.png" style="max-width: 150px;">
-                <p style="color: white;">
+                <p class="texto-corpo">
                     Protótipo do aplicativo mobile VamoAí. O protótipo do aplicativo foi desenvolvido pensando no
                     transporte público Curitibano e tem funcionalidades como visualizar horários de ônibus, linhas e
                     e recarregar passagens.
@@ -59,13 +62,13 @@
                    target="_blank">
                     <img src="imagens/prototipo.png" class="imagem-prototipo">
                 </a>
-                <p style="color: white; font-size: 12px; margin-top: 0px;">
+                <p class="texto-credito">
                     Clique na imagem acima para acessar o protótipo
                 </p>
             </div>
         </div>
 
-        <p style="color: white;">
+        <p class="texto-corpo">
             Outros projetos feitos:
             <a href="https://canva.link/k52bjuc4i4ls1kt" target="_blank" style="color: white;">
                 Análise de Dados sobre a Demanda de Saúde Mental em Curtiba e Região Metropolitana
@@ -75,7 +78,7 @@
 
     <div class="container-extensao">
         <img src="imagens/extensao-titulo.png" style="max-width: 200px;">
-        <p style="color: white; font-size: 16px;">
+        <p class="texto-destaque">
             Participei como voluntária e bolsista no projeto TIChers, que tem o objetivo de aumentar a
             representatividade de mulheres na Computação, com ações de conscientização e formação de docentes
             que multiplicarão esta mensagem para as suas turmas.
@@ -86,7 +89,7 @@
         <div class="item-extensao">
             <img src="imagens/oficinas-titulo.png" style="max-width: 50%; height: auto;">
             <img src="imagens/oficinas.png" style="max-width: 100%; height: auto;">
-            <p style="color: white; text-align: center;">
+            <p class="texto-legenda">
                 Desenvolvi e apresentei oficinas sobre conscientização ambiental do uso de inteligência
                 artifical e descarte incorreto de lixos eletrônicos no meio ambiente
             </p>
@@ -95,7 +98,7 @@
         <div class="item-extensao">
             <img src="imagens/posts-titulo.png" style="max-width: 30%; height: auto;">
             <img src="imagens/posts.png" style="max-width: 100%; height: auto;">
-            <p style="color: white; text-align: center;">
+            <p class="texto-legenda">
                 Desenvolvi posts para as mídias sociais em conjunto com a equipe de mídias do projeto.
             </p>
         </div>
@@ -103,7 +106,7 @@
         <div class="item-extensao">
             <img src="imagens/artigos-titulo.png" style="max-width: 40%; height: auto;">
             <img src="imagens/artigo.png" style="max-width: 100%; height: auto;">
-            <p style="color: white; text-align: center;">
+            <p class="texto-legenda">
                 Publiquei artigos e resumos extendidos com base nos dados obtidos das oficinas.
             </p>
         </div>
@@ -111,12 +114,12 @@
 
     <div class="criacoes">
         <img src="imagens/criacoes.png" style="max-width: 30%; margin-top: 2rem;">
-        <p style="color: white;">
+        <p class="texto-corpo">
             Projetos pessoais e hobbies
         </p>
         <img src="imagens/criacoes-imagens.png" style="max-width: 80%; margin-top: 2rem;">
 
-        <p style="color: white; margin-bottom: 0px; margin-top: 2rem;">
+        <p class="texto-corpo" style="margin-bottom: 0px; margin-top: 2rem;">
             Comecei a desenvolver uma extensão de Pet Virtual VSCode (Em andamento)
         </p>
         <img src="imagens/ratinho.png" style="max-width: 60%; margin-top: 2rem;">
