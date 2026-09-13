@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif; 
     line-height: 1.5;
     background-color: #2A5276;
     background-image: url("imagens/papel03.jpg");
