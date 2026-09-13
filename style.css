@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; 
     line-height: 1.5;
     background-color: #2A5276;
     background-image: url("imagens/papel03.jpg");
@@ -47,34 +47,6 @@ h2 {
     text-align: center;
 }
 
-.texto-intro {
-    color: white;
-    font-size: 14px;
-    max-width: 50%;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.texto-corpo {
-    color: white;
-}
-
-.texto-credito {
-    color: white;
-    font-size: 12px;
-    margin-top: 0px;
-}
-
-.texto-destaque {
-    color: white;
-    font-size: 16px;
-}
-
-.texto-legenda {
-    color: white;
-    text-align: center;
-}
-
 .container-projetos {
     display: flex;
     flex-direction: column;
@@ -84,7 +56,7 @@ h2 {
 
 .item {
     width: 100%;
-    max-width: 1500px;
+    max-width: 12s00px;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
@@ -165,94 +137,4 @@ h2 {
     gap: 15px;
     flex-wrap: wrap;
     margin: 2rem 0;
-}
-
-/* Telas grandes (notebooks maiores e monitores) */
-@media (min-width: 1024px) {
-    .texto-intro {
-        font-size: 16px;
-    }
-
-    .texto-corpo,
-    .texto-destaque {
-        font-size: 18px;
-    }
-
-    .texto-credito {
-        font-size: 13px;
-    }
-
-    .texto-legenda {
-        font-size: 15px;
-    }
-
-    .subtitulo {
-        max-width: 550px;
-    }
-
-    .nome-titulo {
-        max-width: 440px;
-    }
-
-    .item .imagem-principal {
-        max-width: 650px;
-    }
-
-    .item .imagem-prototipo {
-        max-width: 270px;
-    }
-
-    .container-extensao {
-        max-width: 1000px;
-    }
-
-    .container-extensao-imagens {
-        max-width: 1500px;
-        gap: 50px;
-    }
-}
-
-/* Telas muito grandes (monitores widescreen / 4K) */
-@media (min-width: 1600px) {
-    .texto-intro {
-        font-size: 19px;
-    }
-
-    .texto-corpo,
-    .texto-destaque {
-        font-size: 21px;
-    }
-
-    .texto-credito {
-        font-size: 15px;
-    }
-
-    .texto-legenda {
-        font-size: 17px;
-    }
-
-    .subtitulo {
-        max-width: 620px;
-    }
-
-    .nome-titulo {
-        max-width: 500px;
-    }
-
-    .item .imagem-principal {
-        max-width: 720px;
-    }
-
-    .item .imagem-prototipo {
-        max-width: 300px;
-    }
-
-    .container-extensao {
-        max-width: 1150px;
-    }
-
-    .container-extensao-imagens {
-        max-width: 1700px;
-        gap: 60px;
-    }
 }
